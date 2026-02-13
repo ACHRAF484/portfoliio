@@ -1,0 +1,39 @@
+🔐 IMPORTANT: GitHub Password Authentication is Disabled
+
+GitHub stopped supporting password authentication in 2021 for security reasons.
+You MUST use a Personal Access Token instead.
+
+Good news: It's simple! A token is just a unique code that works like a password.
+
+═══════════════════════════════════════════════════════════════
+
+QUICK SETUP (5 minutes):
+
+1️⃣ CREATE A TOKEN:
+   • Go to: https://github.com/settings/tokens/new
+   • Name: "Portfolio"
+   • Check "repo" checkbox
+   • Click "Generate token"
+   • COPY the token (looks like: ghp_xxxxxxxxxxxxxxxxxxxx)
+
+2️⃣ USE YOUR TOKEN AS PASSWORD:
+   • Username: ACHRAF484
+   • Password: [paste your token here]
+
+3️⃣ RUN PUSH COMMAND:
+
+   cd /tmp/portfolio
+   git remote set-url origin https://ACHRAF484@github.com/ACHRAF484/portfoliio.git
+   git push -u origin main
+   
+   When prompted for password: paste your token
+
+═══════════════════════════════════════════════════════════════
+
+The token is TEMPORARY (30 days) and can be deleted anytime.
+It's MORE SECURE than a password because:
+✓ Limited to git operations only
+✓ Can be revoked instantly
+✓ GitHub monitors it for abuse
+
+Ready to proceed? Follow steps 1-3 above!
