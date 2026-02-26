@@ -1,0 +1,581 @@
+/* ACHRAF BEROUIH PORTFOLIO */
+:root {
+    --color-bg: #fafaf8;
+    --color-bg-light: #ffffff;
+    --color-text-primary: #2c2c2c;
+    --color-text-secondary: #666666;
+    --color-text-light: #999999;
+    --color-primary: #29415d;
+    --color-accent: #003d7a;
+    --color-border: #e5e5e3;
+    --color-shadow: rgba(0, 0, 0, 0.08);
+    --font-primary: -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif;
+    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    --spacing-lg: 24px;
+    --spacing-xl: 32px;
+    --spacing-2xl: 48px;
+    --spacing-3xl: 64px;
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-bg);
+    color: var(--color-text-primary);
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    m/* ACHRAF BEROUIH PORTFOLIO */
+:root {
+    --col
+}:root {
+    --color-bg: #fafaiz    --x;    --color-bg-light: #      --color-text-primary: #2cg-    --color-text-secondary: #6666pr    --color-text-lighn: center;
+}
+
+.n    --color-primary: #29415d;
+ ar    --color-accent: #003d7a;er    --color-border: #e5e5e3lo    --color-shadow: rgba(0tic    --font-primary: -apple-system, Blinav    --spacing-xs: 4px;
+    --spacing-sm: 8px;
+    --spacing-md: 16px;
+    -nt    --spac-between;
+       --spacing-md: 16png    --spacing-lg: 24p);
+    --spacing-xl: 32pxnt    --spacing-2xl: 4t-we    --spacing-3xl: 64pxar    --transition: all 0et}
+
+* {
+    margin: 0;
+    paddi{
+    lis    padding: ;
+    box-sizingle}
+
+html {
+    scroll-behav;
+    gap: v    font-size: 16px;
+}
+
+boden}
+
+bod    text-decoratio    fne    background-color: var(--color-ary)    color: var(--color-text-primary);:     line-height: 1.6;
+}
+
+img {
+    man}
+
+img {
+    max-widtion)    
+.nav-menu a::after {
+ }
+
+.container {
+    pos    max-widlu    m/* ACHRAF BEROUI
+ :root {
+    --col
+}:root {
+    -ight    --
+ }:root {ro    --cor}
+
+.n    --color-primary: #29415d;
+ ar    --color-accent: #003d7a;er    --color-border: #e5e5e3lo    --color-shadow: rgba(0tic    --font-primary: -apple100%; ar    --color-accent: #003d7a:     --spacing-sm: 8px;
+    --spacing-md: 16px;
+    -nt    --spac-between;
+       --spacing-md: 16png    --spacing-lg: 24p);
+    --spacing-xl: 32pxnt    -s:    --spacing-md: 16p{
+    background: transpar       --spacing-md: 16pn      --spacing-xl: 32pxnt    --spacing-2xl: 4t-we: 
+* {
+    margin: 0;
+    paddi{
+    lis    padding: ;
+    box-sizingle}
+
+html {
+    scroll-behav;
+  tr  si    paddi{
+  ra    lis  
+}    box-sizingleve {
+ 
+html {
+    scrolor    s(-    gap: v    fo  }
+
+boden}
+
+bod    text-decora);
+}
+
+bod g-b}
+
+img {
+    man}
+
+img {
+    max-widtion)    
+.nav-menu a::after {
+ }
+
+.container {
+    pos    max-widlu    m/* ACHRAF BEROUI;
+       gn
+img {
+ ce  er;
+    padding: var(--sp }
+
+.container {
+  ol
+r:     pos    -b :root {
+    --col
+}:root {
+    -ight   ig    --c;
+}:root -wi    -ig0p }:root {ro    0
+.n    --color-primae { ar    --color-accent: #003d7a-w    --spacing-md: 16px;
+    -nt    --spac-between;
+       --spacing-md: 16png    --spacing-lg: 24p);
+    --spacing-xl: 32pxnt    -s:    --spacing-md: 16p{
+    bacrgba(255, 255,     -nt    --spac-betwes       --spacing-md: 16pn 1    --spacing-xl: 32pxnt    -s:    --spacing-md:ol    background: transpar       --spacing-md: 16pn   sp* {
+    margin: 0;
+    paddi{
+    lis    padding: ;
+    box-sizingle}
+
+html {
+    scroll-bp;
+}
+
+.btn {        paddi{
+  io    lne;
+      box-sizingle}
+
+h;
+
+html {
+    scros: 6px;
+    tr  si    padd00  ra    lis  
+}n: v}    box-sizio 
+html {
+    scrolnline-    s;
+
+boden}
+
+bod    text-decora);
+}
+
+bodor: #ffffff}
+
+bod g-b}
+
+img {
+d;
+}
+
+img {
+rim   :ho
+img 
+        sf.nav-menu a::aY(-2px) }
+
+.container {
+   {
+       pos    -c       gn
+img {
+ ce  er;
+    padding: varn-img ndary: ce r       tra
+.container {
+  ol
+r: x);  ol
+r:    {
+r:  b    --col
+}:root {
+    co}:root {ig    -ig  }:root -wi    -ipacing-.n    --color-put-content {
+    disp    -nt    --spac-between;
+       --spacing-md: 16png    --spacing-lg: 24p);;
+       --spacing-md: 16pn
+
+    --spacing-xl: 32pxnt    -s:    --spacing-md: 3    bacrgba(255, 255,     -nt    --spac-betwes       3    margin: 0;
+    paddi{
+    lis    padding: ;
+    box-sizingle}
+
+html {
+    scroll-bp;
+}
+
+.btn {        paddi{
+  io    lne;
+      box-sizingle}
+
+h;
+
+html {
+    scros: 6px;
+    tnc    p   padding    lis  pa    box-sizingle}
+xper
+html {
+    scro di    s: }
+
+.btn {    d-tem  io -columns: repeat(auto-fit, minmax(320px, 1fr));
+  
+ ga    sr(    tr  si    ;
+}n: v}    box-sizio 
+html {
+    ouhtml {
+    scrolcolor    sig
+boden}
+
+bod    texar(-
+bod ing}
+
+bodor: #fffer-radius:
+bod g-b}
+
+imger-
+eft: 4px solid var(--rim r-img 
+   
+    bo
+.container {
+   {
+       pos   sha   {
+     transitiimg {
+ ce  er;
+    paddi
+
+ ce er    p-car.container {
+  ol
+r: x);  ol
+r:    {
+r:  b
+   ol
+r: x);owr:  8r:    {
+rgbr:  b 1,}:root {
+    }
+    corie    disp    -nt    --spac-between;
+       --spacing-md: 16png    --spacinglo       --spacingargin-bottom: var(-       --spacing-md: 16pn
+
+    --spacing-xl: 32pxin
+    --spacing-xl: 32pxne:     paddi{
+    lis    padding: ;
+    box-sizingle}
+
+html {
+    scroll-bp;
+}
+
+.btn {        paddi{
+  io    lne;
+      e-    lis        box-sizingle}
+
+h  
+html {
+    scolor-    -se}
+
+.btn {     font  io    lne;
+      pe   nce-highlights {
+    list-style
+ no e;
+}
+
+    erience-highlights li {
+    padding-left: 18px;
+    position: rhtmti    s  
+.btn {    d-tem  r(-  
+ ga    sr(    tr  si    ;
+}n: v}    box-sizio 
+html {
+    ouhtme: 14}n: v}    box-sizio 
+htm;
+html {
+ rience-highli    oli    scrolco  boden}
+
+bod    tex    
+bod ionbod ing}
+
+bod  
+bodor:0;
+bod g-b}
+
+ var(--color
+imger-);
+eft: on   
+    bo
+.container {
+   {
+     ck.contd- olor: var(--   or     transitiimg {
+di ce var(--spacing-3xl) 0;
+}
+
+ ce er -gr  ol
+r: x);  ol
+r:    {
+r:  r: d-r:   ate-cor:  b
+ r   ot(r: x-frgbr:  b 1,}:root {fr    }
+    corie   -s    ng       --spacing-md: 16png    --spacinglo or
+    --spacing-xl: 32pxin
+    --spacing-xl: 32pxne:     paddi{
+    lis    padding: ;
+    box-sizingl2px    --spacing-xl: 32pxn
+
+    lis    padding: ;
+    box-sizin      box-sizingle}
+
+h-a
+html {
+    scroin-    sm:}
+
+.btn {    g-md)  io    lne;
+      
+       e-   e:
+h  
+html {
+    scolor-    -se}
+
+.brgihtbo    s v
+.btn {     font           pe   nce-highlights ri    list-style
+ no e;
+}
+
+    no e;
+}
+
+   isc;
+    pad    padding-left: 18px;
+  :     position: rhtmeconda.btn {    d-tem  r(-  
+ ga   ga    sr(    tr  si -s}n: v}    box-sizio 
+htmghhtml {
+    ouhtme: on    o  htm;
+html {
+ rience-ng-3xl) 0;
+}
+
+.educa riengr
+bod    tex    
+bod ionbod ing}
+
+bod  
+te-bod ionbod inat
+bod  
+bodorinmaxbod0pxbod g-b;
+
+ var(p: vimger-);
+efg-eft: on
+
+    bo
+.cn-.con {
+   {
+     cund-coldi ce var(--spacing-3xl) 0;
+}
+
+ ce er -gr  ol
+r:aci}
+
+ ce er -gr  ol
+r: x);   8px;r: x);  ol
+r:owr:    {
+rpxr:  r--c r   ot(r: x-frgbr:  b 1ti    corie   -s    ng       --spacing-mard    --spacing-xl: 32pxin
+    --spacing-xl: 32pxne:     paddi{
+  2    --spacing-xl: 32pxn12    lis    padding: ;
+    box-siziniz    box-sizingl2px  ig
+    lis    padding var(--color-accent);
+      box-sizin      b(-
+h-a
+html {
+    scroin-    sm:}title,     sation-year {
+    displa      
+       color: var(--c     teh  
+html {
+  ;
+ht      ssi
+.brgihtbo    s v
+ati.btn {     fon {
+ no e;
+}
+
+    no e;
+}
+
+   isc;
+    pad    padding-left: 18px;  }
+
+  e-hei}
+
+   is;
+}
+
+    pact  :     position: rhtmeconda.di ga   ga    sr(    tr  si -s}n: v}    box-sizio0%);htmghhtml {
+    ouhtme: on    o  htm;
+html {
+ r v    ouhtmenghtml {
+ rience-ng-3xl) 0ct rienit}
+
+.e    color: var(--bod    tex  htbod ionbod int-
+bod  
+te-bod  tete-blibod  
+bodorinmaxbolbodo#e
+ var(p: vimger-);
+efg-m: efg-eft: on
+
+   l);
+}
+
+.contact.cn-.od   {
+    is   y:}
+
+ ce er -gr  ol
+r:aci}
+
+ ce er -gr  ot(autr:aci}
+
+ cmax(2
+ ce  1fr));
+    gap: vr:owr:    {
+rpxr:  r--marpxr:  r--00    --spacing-xl: 32pxne:     paddi{
+  2    --spacing-xl: 32pxn12    lis    padding: ;
+    box-sizini:   2    --spacing-xl: 32pxn12    lis
+     box-siziniz    box-sizingl2px  ig
+    lis   :     lis    padding var(--color-accenco      box-sizin      b(-
+h-a
+html {
+lay:h-a
+html {
+    scroin-  chnte    s      displa      
+       color: var(--c    r(       color: v}
+html {
+  ;
+ht      ssi
+.brgihtkg  ;
+h-chtor.brgih(255, ati.btn {     f;
+ no e;
+nsform: trans}
+
+  (-4px}
+
+   isontac    pa {
+  e-hent-size: 2rem;
+}
+
+.contact-c
+   is;{
+ }
+
+  rgin-    ouhtme: on    o  htm;
+html {
+ r v    ouhtmenghtml {
+ rience-ng-3xl) 0ct rienit}
+
+.e    color: vafohtml {
+ r v    ouhtmengolo r v r( rience-ng-3xl) 0ct r  
+.e    color: var(--bod    0;bod  
+te-bod  tete-blibod  
+bodorinmaxbolbodo#e-tte-bsebodorinmaxbolbodo#e
+(m var(p: vimger-)) {
+efg-m: efg-eft:ent
+   l);
+}
+
+.contaemp}
+
+.ccolum    is   y:}
+
+ ce @m
+ ce emax-width: 768px) {
+   
+ ce bar
+ cmax(2
+ ce  1fr));
+  add ce  var    gap: v-srpxr:  r--marpng-md);
+  2    --spacing-xl: 32pxn12    lis    padding: brand {
+         box-sizini:   2    --spacing-xl: 32pxn12           box-siziniz    box-sizingl2px  ig
+    lis   :      lis   :     lis    padding var(--.lh-a
+html {
+lay:h-a
+html {
+    scroin-  chnte    s      displa      
+       htfolay:hzehtml {;
+    s
+
+       color: var(--c    r(       color cehtml {
+  ;
+ht      ssi
+.brgihtkg  ;
+h-chtova  ;
+hpahtng.brgi 0;
+   h-chtor.brgig no e;
+nsform: trans}
+
+  (-4px}
+
+   nsforju
+  (-4px}
+
+  : c
+   iso     e-hent-size: 2ron}
+
+.contact-c
+    align-   is;{
+ nter;
+    
+
+
+ html {
+ r v    ouhtmenghtml {
+    r v    rience-ng-3xl) 0ct r  
+.e    color: vafohtml {
+  1f r v    ouhtmengolo rner.e    color: var(g: 0 var(--spacing-md);
+    }
+}
+
+te-bod  tet-width: 480px) {
+    .nbodorinmaxbolbodo#e-  (m var(p: vimger-)) {
+efg-m: efg-eft:ent
+   l{
+efg-m:  font-size: 12p   l);
+}
+
+.contaev-}
+
+.c{
+   
+.ccolum  2p
+ ce @m
+ ce emax-wze: ce ere   
+ ce bar
+ cmax(2
+ ce a c
+  cmax( f ce  1ze  add ce  
+   2    --spacing-xl: 32pxn12    lis    paddingl         box-sizinirm: scale(0.7);
+    }
+
+    .lang-btn {
+        padding: 2px 5px;
+        font-size: 9px;
+    }
+
+    .hero-title {
+        font-sizehtml {
+lay:h-a
+html {
+    scroin-  chnte    s      disinlay:h;
+html {
+     sec       htfolay:hzehtml {;
+    s
+
+             s
+
+       color: var  
+   ddi  ;
+ht      ssacing-md);
+    }
+}
