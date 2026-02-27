@@ -1,74 +1,18 @@
 document.addEventListener('DOMContentLoaded', function() {
     const langButtons = document.querySelectorAll('.lang-btn');
     const translatableElements = document.querySelectorAll('[data-fr][data-en]');
-
+    
     const setLanguage = (lang) => {
         translatableElements.forEach(element => {
             const value = element.getAttribute(`data-${lang}`);
             if (value !== null) {
                 element.innerHTML = value;
             }
-        
-// Menu Hamburger Mobile
-const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const navMenu = document.querySelector('.nav-menu');
-
-if (mobileMenuToggle) {
-    mobileMenuToggle.addEventListener('click', function() {
-        this.classList.toggle('active');
-        navMenu.classList.toggle('active');
-    });
-
-    // Fermer le menu quand on clique sur un lien
-    document.querySelectorAll('.nav-menu a').forEach(link => {
-        link.addEventListener('click', function() {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
         });
-    });
-
-    // Fermer le menu si on clique en dehors
-    document.addEventListener('click', function(event) {
-        if (!event.target.closest('.navbar')) {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
-        }
-    });
-}
-
-});
 
         langButtons.forEach(button => {
             button.classList.toggle('active', button.getAttribute('data-lang') === lang);
-        
-// Menu Hamburger Mobile
-const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const navMenu = document.querySelector('.nav-menu');
-
-if (mobileMenuToggle) {
-    mobileMenuToggle.addEventListener('click', function() {
-        this.classList.toggle('active');
-        navMenu.classList.toggle('active');
-    });
-
-    // Fermer le menu quand on clique sur un lien
-    document.querySelectorAll('.nav-menu a').forEach(link => {
-        link.addEventListener('click', function() {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
         });
-    });
-
-    // Fermer le menu si on clique en dehors
-    document.addEventListener('click', function(event) {
-        if (!event.target.closest('.navbar')) {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
-        }
-    });
-}
-
-});
 
         document.documentElement.lang = lang;
         localStorage.setItem('lang', lang);
@@ -79,36 +23,36 @@ if (mobileMenuToggle) {
 
     langButtons.forEach(button => {
         button.addEventListener('click', () => setLanguage(button.getAttribute('data-lang')));
-    
-// Menu Hamburger Mobile
-const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const navMenu = document.querySelector('.nav-menu');
-
-if (mobileMenuToggle) {
-    mobileMenuToggle.addEventListener('click', function() {
-        this.classList.toggle('active');
-        navMenu.classList.toggle('active');
     });
 
-    // Fermer le menu quand on clique sur un lien
-    document.querySelectorAll('.nav-menu a').forEach(link => {
-        link.addEventListener('click', function() {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
+    // Menu Hamburger Mobile
+    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+
+    if (mobileMenuToggle) {
+        mobileMenuToggle.addEventListener('click', function() {
+            this.classList.toggle('active');
+            navMenu.classList.toggle('active');
         });
-    });
 
-    // Fermer le menu si on clique en dehors
-    document.addEventListener('click', function(event) {
-        if (!event.target.closest('.navbar')) {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
-        }
-    });
-}
+        // Fermer le menu quand on clique sur un lien
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenuToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            });
+        });
 
-});
+        // Fermer le menu si on clique en dehors
+        document.addEventListener('click', function(event) {
+            if (!event.target.closest('.navbar')) {
+                mobileMenuToggle.classList.remove('active');
+                navMenu.classList.remove('active');
+            }
+        });
+    }
 
+    // Navigation smooth scroll
     const navLinks = document.querySelectorAll('.nav-menu a');
     navLinks.forEach(link => {
         link.addEventListener('click', function(e) {
@@ -121,96 +65,13 @@ if (mobileMenuToggle) {
                     window.scrollTo({
                         top: offsetTop,
                         behavior: 'smooth'
-                    
-// Menu Hamburger Mobile
-const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const navMenu = document.querySelector('.nav-menu');
-
-if (mobileMenuToggle) {
-    mobileMenuToggle.addEventListener('click', function() {
-        this.classList.toggle('active');
-        navMenu.classList.toggle('active');
-    });
-
-    // Fermer le menu quand on clique sur un lien
-    document.querySelectorAll('.nav-menu a').forEach(link => {
-        link.addEventListener('click', function() {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
-        });
-    });
-
-    // Fermer le menu si on clique en dehors
-    document.addEventListener('click', function(event) {
-        if (!event.target.closest('.navbar')) {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
-        }
-    });
-}
-
-});
+                    });
                 }
             }
-        
-// Menu Hamburger Mobile
-const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const navMenu = document.querySelector('.nav-menu');
-
-if (mobileMenuToggle) {
-    mobileMenuToggle.addEventListener('click', function() {
-        this.classList.toggle('active');
-        navMenu.classList.toggle('active');
-    });
-
-    // Fermer le menu quand on clique sur un lien
-    document.querySelectorAll('.nav-menu a').forEach(link => {
-        link.addEventListener('click', function() {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
         });
     });
 
-    // Fermer le menu si on clique en dehors
-    document.addEventListener('click', function(event) {
-        if (!event.target.closest('.navbar')) {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
-        }
-    });
-}
-
-});
-    
-// Menu Hamburger Mobile
-const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const navMenu = document.querySelector('.nav-menu');
-
-if (mobileMenuToggle) {
-    mobileMenuToggle.addEventListener('click', function() {
-        this.classList.toggle('active');
-        navMenu.classList.toggle('active');
-    });
-
-    // Fermer le menu quand on clique sur un lien
-    document.querySelectorAll('.nav-menu a').forEach(link => {
-        link.addEventListener('click', function() {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
-        });
-    });
-
-    // Fermer le menu si on clique en dehors
-    document.addEventListener('click', function(event) {
-        if (!event.target.closest('.navbar')) {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
-        }
-    });
-}
-
-});
-
+    // Nettoyage du DOM
     const footer = document.querySelector('footer.footer');
     if (footer && footer.parentElement) {
         let node = footer.nextSibling;
@@ -220,32 +81,4 @@ if (mobileMenuToggle) {
             node = next;
         }
     }
-
-// Menu Hamburger Mobile
-const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-const navMenu = document.querySelector('.nav-menu');
-
-if (mobileMenuToggle) {
-    mobileMenuToggle.addEventListener('click', function() {
-        this.classList.toggle('active');
-        navMenu.classList.toggle('active');
-    });
-
-    // Fermer le menu quand on clique sur un lien
-    document.querySelectorAll('.nav-menu a').forEach(link => {
-        link.addEventListener('click', function() {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
-        });
-    });
-
-    // Fermer le menu si on clique en dehors
-    document.addEventListener('click', function(event) {
-        if (!event.target.closest('.navbar')) {
-            mobileMenuToggle.classList.remove('active');
-            navMenu.classList.remove('active');
-        }
-    });
-}
-
 });
